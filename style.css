@@ -1,0 +1,56 @@
+p {
+  font-size: 20px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+h2 {
+  text-align: center;
+  color: teal;
+  text-shadow: 1px 1px 1px black;
+}
+
+#btn {
+  margin-left: 550px;
+  background-color: bisque;
+  border-color: coral;
+  color: maroon;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.container{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+#esbtn{
+  background-color: blueviolet;
+  color: aquamarine;
+  border-color: darkmagenta;
+  border-radius: 10px;
+}
+
+#swbtn {
+  background-color: chartreuse;
+  border-color: darkgreen;
+  border-radius: 10px;
+}
+
+#btn:hover {
+  background-color: darkorange;
+  transition-duration: 1s;
+}
+
+#esbtn:hover {
+  background-color: indigo;
+  transition-duration: 1s;
+}
+
+#swbtn:hover {
+  background-color: darkgreen;
+  color: floralwhite;
+  transition-duration: 1s;
+}
